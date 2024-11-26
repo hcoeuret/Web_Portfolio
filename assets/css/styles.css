@@ -2,6 +2,10 @@ body{
   margin: 0;
 }
 
+p{
+  font-family: "Istok Web", Arial;
+}
+
 .linear-body{
   background: linear-gradient(#8276df,#dd6f6f);
   height: 100vh;
@@ -22,7 +26,7 @@ body{
   top: 0;
   background-color: rgba(226, 226, 226, 0.3);
   justify-content: center;
-  backdrop-filter: blur(10px)S;
+  backdrop-filter: blur(10px);
   
 }
 
