@@ -1,0 +1,43 @@
+body{
+  margin: 0;
+}
+
+.linear-body{
+  background: linear-gradient(#8276df,#dd6f6f);
+  height: 100vh;
+  margin: 0;
+}
+
+.link-wrapper{
+  display: block;
+  text-decoration: none;
+}
+
+.navbar{
+  height: 100px;
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  top: 0;
+  background-color: rgba(226, 226, 226, 0.3);
+  justify-content: center;
+  backdrop-filter: blur(10px)S;
+  
+}
+
+.home-button, .aboutme-button, .projects-button, .contact-button{
+  margin: 0;
+  border-radius: 0;
+  border-style: none;
+  display: block;
+  height: 100%;
+  background-color: transparent;
+  font-size: 20px;
+  width: 150px;
+  transition: background-color 0.7s ease
+}
+
+.home-button:hover, .aboutme-button:hover, .projects-button:hover, .contact-button:hover{
+  background-color:rgba(226, 226, 226, 0.4);
+}
