@@ -4,11 +4,11 @@ body{
 
 p{
   font-family: "Istok Web", Arial;
+  margin: 0;
 }
 
 .linear-body{
   background: linear-gradient(#8276df,#dd6f6f);
-  height: 100vh;
   margin: 0;
 }
 

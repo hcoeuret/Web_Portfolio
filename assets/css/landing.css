@@ -29,6 +29,7 @@
   background-color: rgba(226, 226, 226, 0.45);
   transition: background-color 1s ease;
   font-size: 18px;
+  margin-top: 50px;
 }
 
 .discover-button:hover{
