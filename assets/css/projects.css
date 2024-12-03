@@ -40,3 +40,10 @@
 .project-img:hover{
   box-shadow: 0px 0px 10px rgb(73, 73, 73);7
 }
+
+.project-img{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  object-position: center;
+}
