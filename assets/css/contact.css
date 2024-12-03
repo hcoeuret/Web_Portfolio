@@ -22,7 +22,8 @@
   font-size: 15px;
   cursor:pointer;
   transition: background-color 0.15s;
-  margin: 30px
+  margin: 30px;
+  color: black;
 }
 
 .email-button:hover{

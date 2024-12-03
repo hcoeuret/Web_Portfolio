@@ -30,6 +30,7 @@
   transition: background-color 1s ease;
   font-size: 18px;
   margin-top: 50px;
+  color: black;
 }
 
 .discover-button:hover{
