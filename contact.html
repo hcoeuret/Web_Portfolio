@@ -2,7 +2,7 @@
 <header>
   <title>Henri Coeuret website</title>
   <link rel="stylesheet" href="assets/css/styles.css">
-  <link rel="stylesheet" href="assets/css/landing.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Istok+Web:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -25,5 +25,40 @@
   </div>
 
   <div class="linear-body">
+    <div class="main-container">
+      <button id="email-button" class="email-button">
+        Copy my email address
+      </button>
+      <div class="status-card">
+        <p id="status"></p>
+      </div>
+      <p class="or-separator">Or</p>
+      <a target="_blank" href="https://www.linkedin.com/in/hcoeuret/">
+        <button class="linkedin-button">
+          Contact me on Linkedin
+        </button>
+      </a>
+    </div>
   </div>
+
+  <script>
+    document.getElementById("email-button").addEventListener("click", function() {
+            // The email address to copy
+            const email = "henricoeuret@gmail.com";
+
+            // Copy the email to clipboard
+            navigator.clipboard.writeText(email).then(() => {
+                // Show success message
+                const status = document.getElementById("status");
+                status.textContent = "Email copied to clipboard!";
+                setTimeout(() => {
+                    status.textContent = ""; // Clear message after 3 seconds
+                }, 3000);
+            }).catch(err => {
+                console.error("Failed to copy email: ", err);
+            });
+        });
+  </script>
+
+
 </body>

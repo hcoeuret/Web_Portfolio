@@ -2,20 +2,15 @@ body{
   margin: 0;
 }
 
-html{
-  min-height: 100vh;
-}
-
-
 p{
   font-family: "Istok Web", Arial;
   margin: 0;
 }
 
 .linear-body{
-  background: linear-gradient(#8276df,#dd6f6f);
+  background: linear-gradient(#8276df, #dd6f6f);
   margin: 0;
-  height: 100%;
+  min-height: 100vh; /* Ensures at least the viewport height */
 }
 
 .link-wrapper{
