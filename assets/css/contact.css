@@ -7,6 +7,11 @@
   align-items: center;
 }
 
+a {
+  color: black;
+  text-decoration: none; 
+}
+
 
 .or-separator{
   font-weight: bold;
@@ -53,9 +58,5 @@
   color: white;
   position:fixed;
   bottom: 20px;
-}
-
-.status-text{
-  padding :10px 16px 10px 16px;
 }
 
